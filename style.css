@@ -89,3 +89,35 @@ footer {
   background: #333;
   color: white;
 }
+
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.repo-card {
+  background: #fff;
+  padding: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.repo-card:hover {
+  transform: translateY(-4px);
+}
+
+.repo-card h3 {
+  margin-top: 0;
+}
+
+.repo-card a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.repo-card p {
+  font-size: 0.9rem;
+  color: #555;

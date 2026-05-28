@@ -1,65 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Personal Website</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacky Lin | UX Designer</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h1>Welcome to My Website</h1>
+
+<header>
+  <div class="container">
     <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <h3>Jacky Lin</h3>
+
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#github">GitHub</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-  </header>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm Jacky Lin, a UX designer passionate about building great user experiences.</p>
-  </section>
-
-  <section id="projects">
-    <h2>Project Gallery</h2>
-    <div class="gallery">
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Project 1">
-        <h3>Project One</h3>
-        <p>A cool web app I built.</p>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Project 2">
-        <h3>Project Two</h3>
-        <p>Another awesome project.</p>
-        <a href="https://codepen.io/jackylin8/pen/dPXbeZG" target="_blank">View on CodePen</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="github-projects">
-  <h2>My GitHub Projects</h2>
-  <div id="repo-list" class="repo-grid">
-    <p>Loading projects...</p>
   </div>
-  </section>
+</header>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form id="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <p id="form-message"></p>
-  </section>
+<section class="hero">
 
-  <footer>
-    <p>© 2025 Your Name. All rights reserved.</p>
-  </footer>
+  <div class="container">
 
-  <script src="script.js"></script>
+    <h1>Jacky Lin</h1>
+
+    <p>
+      UX Designer and Front-End Developer focused on creating
+      accessible, user-centered digital experiences through
+      research, design, and code.
+    </p>
+
+    <a href="#projects" class="btn">
+      View My Work
+    </a>
+
+  </div>
+
+</section>
+
+<section id="projects">
+
+  <div class="container">
+
+    <h2>Featured Projects</h2>
+
+    <div class="project-grid">
+
+      <article class="project">
+
+        <img src="images/project1.jpg" alt="Project One">
+
+        <div class="project-content">
+
+          <h3>Client Website Redesign</h3>
+
+          <p>
+            Redesigned a client website using UX research,
+            wireframes, and usability testing.
+          </p>
+
+          <a href="#">
+            View Case Study →
+          </a>
+
+        </div>
+
+      </article>
+
+      <article class="project">
+
+        <img src="images/project2.jpg" alt="Project Two">
+
+        <div class="project-content">
+
+          <h3>UX Research Project</h3>
+
+          <p>
+            Conducted user interviews and usability testing
+            to uncover pain points and opportunities.
+          </p>
+
+          <a href="#">
+            View Case Study →
+          </a>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="skills">
+
+  <div class="container">
+
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill">UX Research</div>
+      <div class="skill">User Interviews</div>
+      <div class="skill">Usability Testing</div>
+      <div class="skill">Wireframing</div>
+      <div class="skill">Figma</div>
+      <div class="skill">Prototyping</div>
+      <div class="skill">Design Systems</div>
+      <div class="skill">HTML/CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Accessibility</div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="github">
+
+  <div class="container">
+
+    <h2>GitHub Projects</h2>
+
+    <div id="repo-list" class="repo-grid">
+      <p>Loading projects...</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="contact">
+
+  <div class="container contact">
+
+    <h2>Let's Connect</h2>
+
+    <p>
+      Interested in discussing UX design,
+      product design, or development opportunities?
+    </p>
+
+    <div class="contact-links">
+
+      <a href="mailto:jackylin5451@yahoo.com" target="_blank">
+        Email
+      </a>
+
+      <a href="https://github.com/JackyLin22" target="_blank">
+        GitHub
+      </a>
+
+      <a href="https://www.linkedin.com/in/jacky-lin-2741b41a3/" target="_blank">
+        LinkedIn
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Jacky Lin. Designed and built by me.</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>

@@ -176,6 +176,30 @@ footer {
   border-top: 1px solid var(--border);
 }
 
+.about-page {
+  min-height: 80vh;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.about-content h1 {
+  margin-bottom: 2rem;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+}
+
 @media (max-width: 768px) {
 
   nav {
@@ -194,6 +218,10 @@ footer {
 
   h2 {
     font-size: 2rem;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
   }
 
 }

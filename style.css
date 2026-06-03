@@ -200,6 +200,31 @@ footer {
   margin-bottom: 1.5rem;
 }
 
+/* Enables smooth sliding animation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Pins the button to the bottom-right corner */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Simple hover effect */
+.back-to-top:hover {
+  background-color: #555;
+}
+
 @media (max-width: 768px) {
 
   nav {

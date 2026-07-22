@@ -1,420 +1,361 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <title>PCC Capstone | Jacky Lin</title>
 
-  <title>
-    PCC Capstone | Jacky Lin
-  </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <h3>
+            <a href="index.html"> Jacky Lin </a>
+          </h3>
 
-<body>
+          <ul>
+            <li><a href="about.html">About</a></li>
 
-<header>
+            <li>
+              <a href="index.html#projects"> Projects </a>
+            </li>
 
-  <div class="container">
+            <li>
+              <a href="index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <nav>
+    <section class="case-study-hero">
+      <div class="container">
+        <p class="eyebrow">
+          UX Research • Information Architecture • Usability Testing
+        </p>
 
-      <h3>
-        <a href="index.html">
-          Jacky Lin
+        <h1>Creating a Secure Partner Portal for Primary Care Coalition</h1>
+
+        <p class="hero-description">
+          A healthcare UX capstone project focused on improving secure
+          collaboration and document sharing between PCC staff and external
+          partners.
+        </p>
+
+        <a
+          href="https://www.figma.com/design/ImDLC19pFWi3dDmzAWYxEV/PCC-Case-Study?node-id=30-86&t=lagN7p6F3fDWNjMG-1"
+          class="btn"
+          target="_blank"
+        >
+          View On Figma
         </a>
-      </h3>
+      </div>
+    </section>
+
+    <section>
+      <div class="container case-study-grid">
+        <div>
+          <h3>Timeline</h3>
+
+          <p>September 2025 – May 2026</p>
+        </div>
+
+        <div>
+          <h3>Role</h3>
+
+          <p>UX Researcher & Usability Testing Lead</p>
+        </div>
+
+        <div>
+          <h3>Tools</h3>
+
+          <p>Figma, SharePoint, Miro, Trello</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container narrow">
+        <h2>Overview</h2>
+
+        <p>
+          Primary Care Coalition (PCC) is a nonprofit healthcare organization
+          serving more than 30,000 uninsured and underserved individuals.
+        </p>
+
+        <p>
+          PCC needed a more secure and efficient way for staff and external
+          healthcare partners to share documents and collaborate using
+          SharePoint.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container narrow">
+        <h2>The Problem</h2>
+
+        <div class="insight-card">
+          <h3>Expired SharePoint Links</h3>
 
-      <ul>
+          <p>
+            Staff repeatedly re-shared files because links expired unexpectedly.
+          </p>
+        </div>
+
+        <div class="insight-card">
+          <h3>Permission Complexity</h3>
+
+          <p>Access management was confusing and often required IT support.</p>
+        </div>
+
+        <div class="insight-card">
+          <h3>Security Concerns</h3>
+
+          <p>
+            Sensitive documents were shared through insecure email workflows.
+          </p>
+        </div>
+      </div>
+    </section>
 
-        <li><a href="about.html">About</a></li>
+    <section>
+      <div class="container narrow">
+        <h2>Research</h2>
 
-        <li>
-          <a href="index.html#projects">
-            Projects
-          </a>
-        </li>
+        <p>
+          Before designing the Secure Partner Portal, we needed to understand
+          PCC's existing workflows, stakeholders, and technical constraints. Our
+          research combined organizational analysis, interviews, competitive
+          analysis, and usability testing to identify opportunities for
+          improving secure document sharing.
+        </p>
+      </div>
+    </section>
 
-        <li>
-          <a href="index.html#contact">
-            Contact
-          </a>
-        </li>
+    <section>
+      <div class="container narrow">
+        <h2>Background Research</h2>
+
+        <img
+          class="case-image"
+          src="images/pcc-background-research.png"
+          alt="Background Research"
+        />
+
+        <p>
+          We reviewed PCC's organizational structure, strategic planning
+          documents, SharePoint environment, and current document-sharing
+          workflow. This helped us understand:
+        </p>
+
+        <ul class="case-list">
+          <li>How staff currently collaborated</li>
 
-      </ul>
+          <li>Existing SharePoint limitations</li>
 
-    </nav>
+          <li>Security requirements for healthcare data</li>
 
-  </div>
+          <li>Different user groups within PCC</li>
+        </ul>
 
-</header>
+        <p>
+          This research allowed our team to begin the project with a strong
+          understanding of PCC's organizational goals before proposing any
+          design solutions.
+        </p>
+      </div>
+    </section>
 
-<section class="case-study-hero">
+    <section>
+      <div class="container narrow">
+        <h2>Information Architecture</h2>
 
-  <div class="container">
+        <p>We organized the portal around four major program areas:</p>
 
-    <p class="eyebrow">
-      UX Research • Information Architecture • Usability Testing
-    </p>
+        <ul class="case-list">
+          <li>Administrative</li>
 
-    <h1>
-      Creating a Secure Partner Portal
-      for Primary Care Coalition
-    </h1>
+          <li>Population Health</li>
 
-    <p class="hero-description">
-      A healthcare UX capstone project focused on
-      improving secure collaboration and document
-      sharing between PCC staff and external partners.
-    </p>
+          <li>Healthcare Access</li>
 
-    <a href="https://www.figma.com/design/ImDLC19pFWi3dDmzAWYxEV/PCC-Case-Study?node-id=30-86&t=lagN7p6F3fDWNjMG-1" 
-    class="btn"
-    target="_blank">
-    View On Figma
-    </a> 
+          <li>About PCC</li>
+        </ul>
 
-  </div>
+        <p>The system used a two-tier model:</p>
 
-</section>
+        <ul class="case-list">
+          <li>Public documents accessible without authentication</li>
 
-<section>
+          <li>Private documents protected through authenticated access</li>
+        </ul>
+      </div>
+    </section>
 
-  <div class="container case-study-grid">
+    <section>
+      <div class="container narrow">
+        <h2>Stakeholder Interviews</h2>
 
-    <div>
+        <img
+          class="case-image"
+          src="images/interview-notes.png"
+          alt="Interview Notes"
+        />
 
-      <h3>Timeline</h3>
+        <p>
+          We interviewed PCC staff members who regularly shared documents with
+          healthcare partners. Our interview questions focused on:
+        </p>
 
-      <p>
-        September 2025 – May 2026
-      </p>
+        <ul class="case-list">
+          <li>Current document-sharing workflows</li>
 
-    </div>
+          <li>Pain points using SharePoint</li>
 
-    <div>
+          <li>Permission management</li>
 
-      <h3>Role</h3>
+          <li>Collaboration with external partners</li>
 
-      <p>
-        UX Researcher &
-        Usability Testing Lead
-      </p>
+          <li>Desired improvements</li>
+        </ul>
 
-    </div>
+        <p>
+          Several recurring themes emerged. Staff frequently mentioned spending
+          time managing permissions, resending expired links, and answering
+          questions about locating documents.
+        </p>
+      </div>
+    </section>
 
-    <div>
+    <section>
+      <div class="container narrow">
+        <h2>Affinity Diagramming</h2>
 
-      <h3>Tools</h3>
+        <img
+          class="case-image"
+          src="images/affinity-diagram.png"
+          alt="Affinity Diagram"
+        />
 
-      <p>
-        Figma, SharePoint,
-        Miro, Trello
-      </p>
+        <p>
+          After interviews, our team organized dozens of observations into
+          affinity groups. We clustered related comments to identify major
+          themes across participants.
+        </p>
 
-    </div>
+        <div class="insight-card">
+          <h3>Key Themes</h3>
 
-  </div>
+          <ul class="case-list">
+            <li>Difficulty finding documents</li>
 
-</section>
+            <li>Confusing permissions</li>
 
-<section>
+            <li>Need for centralized resources</li>
 
-  <div class="container narrow">
+            <li>Lack of consistency</li>
 
-    <h2>Overview</h2>
+            <li>Communication inefficiencies</li>
+          </ul>
+        </div>
 
-    <p>
-      Primary Care Coalition (PCC) is a
-      nonprofit healthcare organization
-      serving more than 30,000 uninsured
-      and underserved individuals.
-    </p>
+        <p>
+          These themes directly informed the information architecture and
+          navigation for the final portal.
+        </p>
+      </div>
+    </section>
 
-    <p>
-      PCC needed a more secure and efficient
-      way for staff and external healthcare
-      partners to share documents and
-      collaborate using SharePoint.
-    </p>
+    <section>
+      <div class="container narrow">
+        <h2>Usability Testing</h2>
 
-  </div>
+        <img
+          class="case-image"
+          src="images/usability-testing.png"
+          alt="Usability Testing"
+        />
 
-</section>
+        <p>
+          I helped conduct usability testing sessions using our high-fidelity
+          prototype. Participants completed realistic tasks while thinking
+          aloud, allowing us to observe where they hesitated, became confused,
+          or completed tasks successfully.
+        </p>
 
-<section>
+        <h3>Sample Tasks</h3>
 
-  <div class="container narrow">
+        <ul class="case-list">
+          <li>Locate a healthcare resource</li>
 
-    <h2>The Problem</h2>
+          <li>Access a restricted document</li>
 
-    <div class="insight-card">
+          <li>Find program-specific information</li>
 
-      <h3>
-        Expired SharePoint Links
-      </h3>
+          <li>Navigate between public and private content</li>
+        </ul>
 
-      <p>
-        Staff repeatedly re-shared files
-        because links expired unexpectedly.
-      </p>
+        <h3>Key Findings</h3>
 
-    </div>
+        <ul class="case-list">
+          <li>Folder-based navigation increased confidence.</li>
 
-    <div class="insight-card">
+          <li>
+            Participants preferred permanent folder links over individual
+            document links.
+          </li>
 
-      <h3>
-        Permission Complexity
-      </h3>
+          <li>Clear permission indicators reduced uncertainty.</li>
 
-      <p>
-        Access management was confusing
-        and often required IT support.
-      </p>
+          <li>Simplified navigation improved task completion.</li>
+        </ul>
+      </div>
+    </section>
 
-    </div>
+    <section>
+      <div class="container narrow">
+        <h2>Outcome</h2>
 
-    <div class="insight-card">
+        <p>The project delivered:</p>
 
-      <h3>
-        Security Concerns
-      </h3>
+        <ul class="case-list">
+          <li>Research-backed portal architecture</li>
 
-      <p>
-        Sensitive documents were shared
-        through insecure email workflows.
-      </p>
+          <li>Validated mid and high-fidelity prototypes</li>
 
-    </div>
+          <li>Governance recommendations</li>
 
-  </div>
+          <li>SharePoint implementation guidance</li>
+        </ul>
+      </div>
+    </section>
 
-</section>
+    <section>
+      <div class="container narrow">
+        <h2>What I Learned</h2>
 
-<section>
+        <p>
+          This capstone project taught me how to balance user needs, security
+          requirements, organizational goals, and technical constraints within a
+          real healthcare environment.
+        </p>
 
-  <div class="container narrow">
+        <p>
+          I also learned that usability testing is about observing behavior
+          rather than collecting opinions, and that information architecture
+          directly shapes user confidence and workflow efficiency.
+        </p>
+      </div>
+    </section>
 
-    <h2>Research</h2>
-
-    <p>
-      Our team conducted:
-    </p>
-
-    <ul class="case-list">
-
-      <li>Background research</li>
-
-      <li>Competitive analysis</li>
-
-      <li>Stakeholder interviews</li>
-
-      <li>User journey mapping</li>
-
-      <li>Affinity diagramming</li>
-
-      <li>Usability testing</li>
-
-    </ul>
-
-    <p>
-      Research revealed the need for:
-    </p>
-
-    <ul class="case-list">
-
-      <li>
-        Centralized access to documents
-      </li>
-
-      <li>
-        Clearer permissions
-      </li>
-
-      <li>
-        Reduced administrative burden
-      </li>
-
-    </ul>
-
-  </div>
-
-</section>
-
-<section>
-
-  <div class="container narrow">
-
-    <h2>Information Architecture</h2>
-
-    <p>
-      We organized the portal around
-      four major program areas:
-    </p>
-
-    <ul class="case-list">
-
-      <li>Administrative</li>
-
-      <li>Population Health</li>
-
-      <li>Healthcare Access</li>
-
-      <li>About PCC</li>
-
-    </ul>
-
-    <p>
-      The system used a two-tier model:
-    </p>
-
-    <ul class="case-list">
-
-      <li>
-        Public documents accessible
-        without authentication
-      </li>
-
-      <li>
-        Private documents protected
-        through authenticated access
-      </li>
-
-    </ul>
-
-  </div>
-
-</section>
-
-<section>
-
-  <div class="container narrow">
-
-    <h2>Usability Testing</h2>
-
-    <p>
-      I planned and conducted usability
-      sessions with PCC staff members
-      across multiple departments.
-    </p>
-
-    <div class="insight-card">
-
-      <h3>
-        Folder-Based Access Improved Usability
-      </h3>
-
-      <p>
-        Participants strongly preferred
-        persistent folder links over
-        individual file links.
-      </p>
-
-    </div>
-
-    <div class="insight-card">
-
-      <h3>
-        Information Architecture Increased Confidence
-      </h3>
-
-      <p>
-        Users navigated more confidently
-        when content reflected their
-        mental models and workflows.
-      </p>
-
-    </div>
-
-    <div class="insight-card">
-
-      <h3>
-        Governance Was Critical
-      </h3>
-
-      <p>
-        Participants consistently raised
-        concerns about permissions and
-        access control.
-      </p>
-
-    </div>
-
-  </div>
-
-</section>
-
-<section>
-
-  <div class="container narrow">
-
-    <h2>Outcome</h2>
-
-    <p>
-      The project delivered:
-    </p>
-
-    <ul class="case-list">
-
-      <li>
-        Research-backed portal architecture
-      </li>
-
-      <li>
-        Validated mid and high-fidelity prototypes
-      </li>
-
-      <li>
-        Governance recommendations
-      </li>
-
-      <li>
-        SharePoint implementation guidance
-      </li>
-
-    </ul>
-
-  </div>
-
-</section>
-
-<section>
-
-  <div class="container narrow">
-
-    <h2>What I Learned</h2>
-
-    <p>
-      This capstone project taught me how
-      to balance user needs, security
-      requirements, organizational goals,
-      and technical constraints within a
-      real healthcare environment.
-    </p>
-
-    <p>
-      I also learned that usability testing
-      is about observing behavior rather
-      than collecting opinions, and that
-      information architecture directly
-      shapes user confidence and workflow
-      efficiency.
-    </p>
-
-  </div>
-
-</section>
-
-<footer>
-
-  <p>
-    © 2026 Jacky Lin
-  </p>
-
-</footer>
-
-</body>
+    <footer>
+      <p>© 2026 Jacky Lin</p>
+    </footer>
+  </body>
 </html>

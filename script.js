@@ -1,3 +1,69 @@
+/* ===========================
+   IMAGE LIGHTBOX
+=========================== */
+
+const images = document.querySelectorAll(".case-image");
+
+const lightbox = document.getElementById("lightbox");
+
+const lightboxImage =
+document.getElementById("lightbox-image");
+
+const lightboxCaption =
+document.getElementById("lightbox-caption");
+
+const closeButton =
+document.querySelector(".close-lightbox");
+
+images.forEach(image => {
+
+    image.addEventListener("click", () => {
+
+        lightbox.classList.add("active");
+
+        lightboxImage.src = image.src;
+
+        lightboxImage.alt = image.alt;
+
+        lightboxCaption.textContent =
+            image.alt;
+
+        document.body.style.overflow = "hidden";
+
+    });
+
+});
+
+closeButton.addEventListener("click", closeLightbox);
+
+lightbox.addEventListener("click", function(event){
+
+    if(event.target === lightbox){
+
+        closeLightbox();
+
+    }
+
+});
+
+document.addEventListener("keydown", function(event){
+
+    if(event.key === "Escape"){
+
+        closeLightbox();
+
+    }
+
+});
+
+function closeLightbox(){
+
+    lightbox.classList.remove("active");
+
+    document.body.style.overflow = "auto";
+
+}
+
 const username = "JackyLin22";
 
 fetch(`https://api.github.com/users/${username}/repos`)
